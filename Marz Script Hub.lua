@@ -374,3 +374,11 @@ do
     end
 end
 end)
+---------------------------------------------------------------------|Flyrace
+local Flyrace = Window:NewTab("[🍀x2]🚀 Fly Race!")
+local FlyraceSection = Flyrace:NewSection("[🍀x2]🚀 Fly Race!")
+
+FlyraceSection:NewButton("[🍀x2]🚀 Fly Race Menu(Undetected)", "Fly Race Menu", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Bla_Race'))()
+end)
+---------------------------------------------------------------------|
